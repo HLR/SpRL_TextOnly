@@ -22,7 +22,9 @@ and assuming you have sbt, do `sbt publish-local`, this should be all you need t
   ```
 
 ## Dataset
-Please download the dataset from [here] and copy in the root folder to have:`SpRL_TextOnly/data` and make sure to download google vectors and have it in `/data/GoogleNews-vectors-negative300.bin`.
+The dataset is rather small and is copied at `data/mSpRL/saiapr_tc-12`, make sure to download google vectors and have it in `/data/GoogleNews-vectors-negative300.bin`.
+ if you want to use `FeatureSets.WordEmbedding` in the configuration. 
+ 
  The layout of the data should be as follows:
 ```bash
 Data/
@@ -33,6 +35,7 @@ Data/
 `------`-- newSprl2017_gold.xml
 
 ```
+
 ``` 
 ## SpRLApp
 
@@ -57,7 +60,8 @@ results will be saved in `data/mSprL/results` folder as text files corresponding
 ## Results on CLEF 2017 dataset
 Here are the summarized results of relation classifier for a Baseline model and the baseline plus constraints:
 
-```label                           Precision  Recall     F1         LCount     PCount    
+```
+label                           Precision  Recall     F1         LCount     PCount    
 -----------------------------------------------------------------------------------
 BM                              65.640     60.226     62.817     885        812
 BM+Constraints                  70.036     66.554     68.250     885        841       
