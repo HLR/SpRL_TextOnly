@@ -1,1 +1,0 @@
-This is a test example to try the onlology TRIPS lables and read them into a datamodel. 
