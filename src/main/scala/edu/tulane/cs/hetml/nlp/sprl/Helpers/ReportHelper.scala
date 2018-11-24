@@ -9,8 +9,8 @@ import edu.illinois.cs.cogcomp.saulexamples.nlp.SpatialRoleLabeling.SpRL2013._
 import edu.illinois.cs.cogcomp.saulexamples.nlp.SpatialRoleLabeling.SpRLAnnotation
 import edu.tulane.cs.hetml.nlp.sprl.Eval._
 import edu.tulane.cs.hetml.nlp.BaseTypes._
-import edu.tulane.cs.hetml.nlp.sprl.Ontology.MultiModalSpRLDataModel._
-import edu.tulane.cs.hetml.nlp.sprl.Pairs.MultiModalSpRLPairClassifiers
+import edu.tulane.cs.hetml.nlp.sprl.TextOnly.MultiModalSpRLDataModel._
+//import edu.tulane.cs.hetml.nlp.sprl.Pairs.MultiModalSpRLPairClassifiers
 import edu.tulane.cs.hetml.nlp.sprl.SpRL2017.{Scene, SpRL2017Document}
 import edu.tulane.cs.hetml.vision.ImageTriplet
 import org.h2.store.fs.FilePath
@@ -342,10 +342,10 @@ object ReportHelper {
 
     def getArg(i: Int, r: Relation) = r.getArgument(i).getText.toLowerCase
 
-    def print(r: Relation) = {
-      MultiModalSpRLPairClassifiers.pairFeatures(FeatureSets.BaseLine)
-        .map(prop => printVal(prop(r))).mkString(" | ")
-    }
+//    def print(r: Relation) = {
+//      MultiModalSpRLPairClassifiers.pairFeatures(FeatureSets.BaseLine)
+//        .map(prop => printVal(prop(r))).mkString(" | ")
+//    }
 
     def printVal(v: Any) = {
       v match {

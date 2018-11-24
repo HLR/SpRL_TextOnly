@@ -1,7 +1,7 @@
 package edu.tulane.cs.hetml.nlp.sprl.Helpers
 
 import edu.tulane.cs.hetml.nlp.BaseTypes._
-import edu.tulane.cs.hetml.nlp.sprl.Ontology.MultiModalSpRLDataModel.dummyPhrase
+import edu.tulane.cs.hetml.nlp.sprl.TextOnly.MultiModalSpRLDataModel.dummyPhrase
 import edu.tulane.cs.hetml.nlp.Xml.NlpXmlReader
 import edu.tulane.cs.hetml.nlp.XmlMatchings
 import edu.tulane.cs.hetml.nlp.sprl.Eval.OverlapComparer

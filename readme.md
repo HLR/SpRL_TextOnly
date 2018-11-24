@@ -11,7 +11,7 @@ if the current word is connected to any region in the image. This connection is 
 the word with the label of the segment.
 
 
-- [**Combining text and image using word-as-classifier and proposition classifier**](src/main/scala/edu/tulane/cs/hetml/nlp/sprl/Ontology/README.md) : in this setting we generated candidate triplets for 
+- [**Combining text and image using word-as-classifier and proposition classifier**](src/main/scala/edu/tulane/cs/hetml/nlp/sprl/TextOnly/README.md) : in this setting we generated candidate triplets for 
 relations and trained classifiers to learn the relations and relation types in the text. 
 In addition spatial relation in the image side are detected through `PrepositionClassifier`. 
 A collection of pre-trained word localization classifiers is used to connect text and image modalities.
