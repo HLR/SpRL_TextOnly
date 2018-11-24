@@ -6,7 +6,7 @@ import edu.tulane.cs.hetml.nlp.sprl.Helpers.{FeatureSets, ReportHelper}
 import MultiModalPopulateData._
 import MultiModalSpRLDataModel.{phrases, triplets}
 import edu.tulane.cs.hetml.nlp.sprl.TextOnly.MultiModalSpRLTripletClassifiers._
-import edu.tulane.cs.hetml.nlp.sprl.TextOnly.MultiModalTripletApp.expName
+import edu.tulane.cs.hetml.nlp.sprl.TextOnly.SpRLApp.expName
 import edu.tulane.cs.hetml.nlp.sprl.TextOnly.TripletSentenceLevelConstraintClassifiers._
 import tripletConfigurator.{resultsDir, populateImages}
 
