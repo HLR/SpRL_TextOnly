@@ -49,16 +49,15 @@ All configurations needed to run the main application are placed in
 
 To run the main app with default properties:
 
-```
-sbt "project SpRL_textOnly" "runMain edu.tulane.cs.hetml.nlp.sprl.TextOnly.SpRLApp"
+```sbt "project SpRL_textOnly" "runMain edu.tulane.cs.hetml.nlp.sprl.TextOnly.SpRLApp"
 ```
 
 results will be saved in `data/mSprL/results` folder as text files corresponding to the model selected in the config file. 
 
 ## Results on CLEF 2017 dataset
 Here are the summarized results of relation classifier for a Baseline model and the baseline plus constraints:
-```
-label                           Precision  Recall     F1         LCount     PCount    
+
+```label                           Precision  Recall     F1         LCount     PCount    
 -----------------------------------------------------------------------------------
 BM                              65.640     60.226     62.817     885        812
 BM+Constraints                  70.036     66.554     68.250     885        841       
