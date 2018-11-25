@@ -45,8 +45,8 @@ All configurations needed to run the main application are placed in
 ### Setting models
  [BM] is the baseline model and is set using `val model = FeatureSets.BaseLine` and disable using images and preposition classifiers
  `val usePrepositions = false` and `var populateImages = false`. 
- You need to set the `isTrain= True` and run the MultiModalTripletApp to train models and when training finished change to `isTrain= False` 
- and rerun the MultiModalTripletApp. You can see the results on screen as well as in `SpRL_TextOnly/data/mSpRL/results/triplet_BM.txt` file.
+ You need to set the `isTrain= True` and run the SpRLApp to train models and when training finished change to `isTrain= False` 
+ and rerun the SpRLApp. You can see the results on screen as well as in `SpRL_TextOnly/data/mSpRL/results/triplet_BM.txt` file.
 
 ## Running
 
