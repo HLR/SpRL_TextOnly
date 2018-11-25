@@ -52,7 +52,7 @@ All configurations needed to run the main application are placed in
 
 To run the main app with default properties:
 
-```sbt "project SpRL_textOnly" "runMain edu.tulane.cs.hetml.nlp.sprl.TextOnly.SpRLApp"
+```sbt "runMain edu.tulane.cs.hetml.nlp.sprl.TextOnly.SpRLApp"
 ```
 
 results will be saved in `data/mSprL/results` folder as text files corresponding to the model selected in the config file. 
